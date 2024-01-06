@@ -2,7 +2,7 @@
 
 namespace DesignPatterns\Singleton;
 
-final class Singleton
+class Singleton
 {
     private static ?Singleton $instance = null;
 
