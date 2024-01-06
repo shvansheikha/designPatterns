@@ -36,7 +36,7 @@ class NewsPublisher implements SplSubject
 
     public function publishArticle($title, $content)
     {
-        $this->articles[] = array('title' => $title,'content' => $content);
+        $this->articles[] = array('title' => $title, 'content' => $content);
 
         $this->notify();
     }
